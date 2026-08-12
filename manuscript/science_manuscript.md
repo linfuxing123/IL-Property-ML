@@ -2,11 +2,11 @@
 
 **One-sentence summary:** Structure-only model predicts four ionic-liquid properties and exposes the gap hidden by conventional splits.
 
-**Authors:** Fuxing Lin\* (corresponding author)
+**Authors:** Fuxing Lin\* (corresponding author; ORCID: 0009-0003-7588-6942)
 
 **Affiliation:** Hunan Institute of Engineering
 
-**Corresponding author:** Fuxing Lin; email: 3612411485@qq.com
+**Corresponding author:** Fuxing Lin; ORCID: 0009-0003-7588-6942; email: 3612411485@qq.com
 
 ---
 
