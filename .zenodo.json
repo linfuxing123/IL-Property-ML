@@ -1,0 +1,21 @@
+{
+  "title": "IL-Property-ML: A unified structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties",
+  "description": "Assembled multi-property ionic-liquid database (11,511 records; 1,658 ion pairs), structure-based ML pipeline (MLR/GBM/MLP with RDKit descriptors + Morgan fingerprints), IL-disjoint validation results, SHAP analysis, figures, and manuscript for the associated Science submission.",
+  "creators": [
+    {
+      "name": "Lin, Fuxing",
+      "affiliation": "Hunan Institute of Engineering"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "keywords": [
+    "ionic liquids",
+    "machine learning",
+    "property prediction",
+    "group k-fold",
+    "electrolyte design",
+    "RDKit"
+  ],
+  "upload_type": "software",
+  "access_right": "open"
+}
