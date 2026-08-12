@@ -6,6 +6,8 @@ This repository contains the complete data, code, figures, and manuscript for th
 submission *"A unified structure-based framework for honest, IL-disjoint prediction
 of ionic-liquid properties."*
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21898949.svg)](https://doi.org/10.5281/zenodo.21898949)
+
 ## What this work does
 
 We assemble the largest consistently featurized multi-property ionic-liquid (IL)
@@ -80,8 +82,11 @@ required.
 
 ## Citation
 
-If you use this repository, please cite the associated manuscript (Zenodo DOI to
-be assigned on first release).
+If you use this repository, please cite:
+
+Lin, Fuxing (2026). IL-Property-ML: A unified structure-based framework for
+honest, IL-disjoint prediction of ionic-liquid properties. Zenodo.
+https://doi.org/10.5281/zenodo.21898949
 
 ## License
 

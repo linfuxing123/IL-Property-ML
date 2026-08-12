@@ -118,7 +118,7 @@ SHAP values were computed with the tree explainer on the trained GBM (300 backgr
 
 ## Data and materials availability
 
-The assembled database (11,511 records for 1,658 ion pairs; `data/il_props.db`), all modeling and figure scripts, per-fold validation results, and this manuscript are openly available at https://github.com/linfuxing123/IL-Property-ML and archived on Zenodo (DOI: 10.5281/zenodo.XXXXXXX; assigned on first release). Public data sources: ILest (14), iolitech (15), and ILThermo (16). Code is provided as Python scripts with pinned dependencies (requirements.txt); no commercial software is required.
+The assembled database (11,511 records for 1,658 ion pairs; `data/il_props.db`), all modeling and figure scripts, per-fold validation results, and this manuscript are openly available at https://github.com/linfuxing123/IL-Property-ML and archived on Zenodo (DOI: 10.5281/zenodo.21898949). Public data sources: ILest (14), iolitech (15), and ILThermo (16). Code is provided as Python scripts with pinned dependencies (requirements.txt); no commercial software is required.
 
 ## References
 
