@@ -19,7 +19,7 @@ Correspondence: 3612411485@qq.com
 
 ### S1.1. Sources
 
-The database (`il_props.db`) was assembled from five public tabular compilations
+The database (`il_props.db`) was assembled from seven public tabular compilations
 spanning three primary sources (main-text refs. 14–16): the ILest mixture-conductivity
 repository (8,035 records, stored as three tabular compilations), three ILThermo-derived
 conductivity tables resolved to ion-level SMILES by a purpose-built parser (3,036 records),
