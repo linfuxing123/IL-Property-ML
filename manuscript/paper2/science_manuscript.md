@@ -99,7 +99,7 @@ Limitations: ILThermo, while curated, inherits literature scatter; inter-laborat
 
 ## Data and code availability
 
-All data (88,077 records, standardized units, verified SMILES), scripts (`ilthermo_fetch.py`, `ilt_validate.py`, `ilt_merge_old.py`), honest-evaluation tools (`honest_cv.py`, `coverage_planner.py`), and per-fold results are available at the companion repository (1) and archived at Zenodo DOI 10.5281/zenodo.21898949 (updated version). ILThermo v2.0 is the primary data source (2).
+All data (88,077 records, standardized units, verified SMILES), scripts (`ilthermo_fetch.py`, `ilt_validate.py`, `ilt_merge_old.py`), honest-evaluation tools (`honest_cv.py`, `coverage_planner.py`), and per-fold results are openly available at https://github.com/linfuxing123/IL-Property-ML (release v1.1.0; archived at Zenodo, DOI 10.5281/zenodo.21898949 and updated versions). ILThermo v2.0 is the primary data source (2).
 
 ## References
 
