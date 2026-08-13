@@ -6,7 +6,9 @@ This repository contains the complete data, code, figures, and manuscript for th
 submission *"A structure-based framework for honest, IL-disjoint prediction
 of ionic-liquid properties"* and its companion study *"Data density as the binding
 constraint: a 7.7-fold expansion of ionic-liquid property data lifts group-disjoint
-prediction from cold start to transferable accuracy."*
+prediction from cold start to transferable accuracy,"* and the feature-engineering
+companion *"Full-spectrum descriptors substitute for data density in ionic-liquid
+property prediction."*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21898949.svg)](https://doi.org/10.5281/zenodo.21898949)
 
@@ -38,6 +40,17 @@ from ≈0 to 0.39 (642 ILs). Key tools: `ilthermo_fetch.py` (concurrent download
 `ilt_validate.py` (export + honest validation), `ilt_merge_old.py` (legacy merge).
 Manuscript, supplementary materials, and figures are in `manuscript/paper2/`
 and `figures/paper2/`.
+
+## Feature-scale study (v1.2+)
+
+The third manuscript tests whether feature engineering can substitute for data.
+Holding the 84,077-record dataset, model, and IL-disjoint protocol fixed, it
+replaces ten hand-picked RDKit descriptors with the full per-ion RDKit set
+(458 descriptors, `data/il_descriptors.csv`) and shows group-disjoint R² rises for
+all four properties, with gains concentrated in the sparsest per-IL buckets
+(viscosity cold-start 0.14→0.56; conductivity 2–3-sample groups 0.08→0.81).
+Key scripts: `il_descriptors.py`, `feat_scale_exp.py`, `feat_density_interaction.py`.
+Manuscript, supplementary materials, and figures are in `manuscript/paper3/`.
 
 ## Repository layout
 

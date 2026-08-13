@@ -1,6 +1,6 @@
 {
   "title": "IL-Property-ML: honest, IL-disjoint prediction of ionic-liquid properties (companion papers)",
-  "description": "Two companion manuscripts on honest, IL-disjoint prediction of ionic-liquid (IL) properties. v1.0.0: unified structure-based framework on 11,511 records / 1,658 ion pairs (MLR/GBM/MLP with RDKit descriptors + Morgan fingerprints, IL-disjoint validation, SHAP). v1.1.0: companion study expanding the database 7.7-fold to 88,077 records / 1,891 unique ion pairs via NIST ILThermo v2.0 (viscosity, density, conductivity, melting point; standardized units; verified SMILES), with honest validation tools and per-fold results.",
+  "description": "Three companion manuscripts on honest, IL-disjoint prediction of ionic-liquid (IL) properties. v1.0.0: structure-based framework on 11,511 records / 1,658 ion pairs (MLR/GBM/MLP with RDKit descriptors + Morgan fingerprints, IL-disjoint validation, SHAP). v1.1.0: companion study expanding the database 7.7-fold to 88,077 records / 1,891 unique ion pairs via NIST ILThermo v2.0 (viscosity, density, conductivity, melting point; standardized units; verified SMILES), with honest validation tools and per-fold results. v1.2.0: feature-scale companion (458 per-ion RDKit descriptors) showing descriptors substitute for data density.",
   "creators": [
     {
       "name": "Lin, Fuxing",
