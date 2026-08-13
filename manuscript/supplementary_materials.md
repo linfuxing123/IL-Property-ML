@@ -1,6 +1,6 @@
 # Supplementary Materials
 
-## A unified structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties
+## A structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties
 
 **Fuxing Lin**, Hunan Institute of Engineering
 

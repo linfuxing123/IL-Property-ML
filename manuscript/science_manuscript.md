@@ -1,4 +1,4 @@
-# A unified structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties
+# A structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties
 
 **One-sentence summary:** Structure-only model predicts four ionic-liquid properties and exposes the gap hidden by conventional splits.
 
@@ -129,7 +129,7 @@ The assembled database (11,511 records for 1,658 ion pairs; `data/il_props.db`),
 5. W. Kohn, L. J. Sham, Self-consistent equations including exchange and correlation effects. *Phys. Rev.* **140**, A1133–A1138 (1965).
 6. O. Borodin, G. D. Smith, Structure and dynamics of N-methyl-N-propylpyrrolidinium bis(trifluoromethanesulfonyl)imide ionic liquid from molecular dynamics simulations. *J. Phys. Chem. B* **110**, 11481–11490 (2006).
 7. M. G. Del Pópolo, G. A. Voth, On the structure and dynamics of ionic liquids. *J. Phys. Chem. B* **108**, 1744–1752 (2004).
-8. A. A. H. Pádua, M. F. Costa Gomes, J. N. A. Canongia Lopes, Understanding ionic liquids through atomistic and coarse-grained molecular dynamics simulations. *Acc. Chem. Res.* **40**, 1087–1096 (2007).
+8. A. A. H. Pádua, M. F. Costa Gomes, J. N. A. Canongia Lopes, Molecular solutes in ionic liquids: A structural perspective. *Acc. Chem. Res.* **40**, 1087–1096 (2007).
 9. X. Yu, End-to-end deep learning models for predicting the electrical conductivity of ionic liquids. *ACS Sustain. Chem. Eng.* (2026). DOI: 10.1021/acssuschemeng.6c07089.
 10. Z. Chen, J. Chen, Prediction of electrical conductivity of ionic liquids: From COSMO-RS derived QSPR evaluation to boosting machine learning. *ACS Sustain. Chem. Eng.* **12**, 17749–17760 (2024). DOI: 10.1021/acssuschemeng.4c00307.
 11. C. Song, C. Wang, F. Fang, G. Zhou, Z. Dai, Z. Yang, Large-scale screening for high conductivity ionic liquids via machine learning algorithm utilizing graph neural network-based features. *J. Chem. Eng. Data* **69**, 800–810 (2024). DOI: 10.1021/acs.jced.3c00709.

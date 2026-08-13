@@ -1,9 +1,9 @@
-# IL-Property-ML: A unified structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties
+# IL-Property-ML: A structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties
 
 **Author:** Fuxing Lin (蔺复兴) · Hunan Institute of Engineering, Xiangtan, Hunan, China
 
 This repository contains the complete data, code, figures, and manuscript for the
-submission *"A unified structure-based framework for honest, IL-disjoint prediction
+submission *"A structure-based framework for honest, IL-disjoint prediction
 of ionic-liquid properties"* and its companion study *"Data density as the binding
 constraint: a 7.7-fold expansion of ionic-liquid property data lifts group-disjoint
 prediction from cold start to transferable accuracy."*
@@ -109,7 +109,7 @@ required.
 
 If you use this repository, please cite:
 
-Lin, Fuxing (2026). IL-Property-ML: A unified structure-based framework for
+Lin, Fuxing (2026). IL-Property-ML: A structure-based framework for
 honest, IL-disjoint prediction of ionic-liquid properties. Zenodo.
 https://doi.org/10.5281/zenodo.21898949
 

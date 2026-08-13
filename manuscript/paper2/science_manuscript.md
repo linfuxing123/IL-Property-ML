@@ -103,7 +103,7 @@ All data (88,077 records, standardized units, verified SMILES), scripts (`ilther
 
 ## References
 
-1. F. Lin, *A unified structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties*, submitted (2026); preprint: ChemRxiv (2026). Companion study: methodology, previous dataset, and evaluation tools.
+1. F. Lin, *A structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties*, submitted (2026); preprint: ChemRxiv (2026). Companion study: methodology, previous dataset, and evaluation tools.
 2. ILThermo v2.0, National Institute of Standards and Technology, https://ilthermo.boulder.nist.gov/.
 3. K. R. Seddon, Ionic liquids for clean technology, *J. Chem. Technol. Biotechnol.* **68**, 351 (1997).
 4. S. Kapoor, A. Narayanan, Leakage and the reproducibility crisis in machine-learning-based science, *Patterns* **4**, 100804 (2023).
