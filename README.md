@@ -8,7 +8,9 @@ of ionic-liquid properties"* and its companion study *"Data density as the bindi
 constraint: a 7.7-fold expansion of ionic-liquid property data lifts group-disjoint
 prediction from cold start to transferable accuracy,"* and the feature-engineering
 companion *"Full-spectrum descriptors substitute for data density in ionic-liquid
-property prediction."*
+property prediction,"* and the graph-learning companion *"Graph neural networks
+and engineered descriptors trade on temperature in ionic-liquid property
+prediction."*
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21898949.svg)](https://doi.org/10.5281/zenodo.21898949)
 
@@ -52,6 +54,18 @@ all four properties, with gains concentrated in the sparsest per-IL buckets
 Key scripts: `il_descriptors.py`, `feat_scale_exp.py`, `feat_density_interaction.py`.
 Manuscript, supplementary materials, and figures are in `manuscript/paper3/`.
 
+## Graph-vs-descriptor study (v1.3+)
+
+The fourth manuscript asks whether end-to-end graph neural networks (GNNs) can
+substitute for engineered descriptors. A message-passing network trained from
+cation/anion molecular graphs is compared against the ten- and 458-descriptor
+gradient-boosting baselines under identical IL-disjoint 5-fold validation. The GNN
+wins where temperature varies and data are abundant — density R² = 0.941 (versus
+0.926 for 458 descriptors) and conductivity 0.751 (versus 0.740) — while engineered
+descriptors remain essential for cold-start melting point (0.523 versus 0.399) and
+competitive for viscosity. Key scripts: `gnn_exp.py`, `make_figures.py`. Manuscript,
+SI, and figures are in `manuscript/paper4/` and `figures/paper4/`.
+
 ## Repository layout
 
 ```
@@ -68,10 +82,10 @@ IL-Property-ML/
 │   ├── fig3_properties.py       # per-property parity figure
 │   ├── shap_sensitivity.py      # SHAP + temperature sensitivity analysis
 │   ├── perfold_results.py       # per-fold result export
-│   ├── ilthermo_fetch.py        # ILThermo v2.0 concurrent downloader (companion)
+���   ├── ilthermo_fetch.py        # ILThermo v2.0 concurrent downloader (companion)
 │   ├── ilt_validate.py          # export + honest_cv/coverage validation (companion)
 │   ├── ilt_merge_old.py         # legacy dataset merge (companion)
-│   └── perfold_si.py            # per-fold SI results (companion)
+│   └���─ perfold_si.py            # per-fold SI results (companion)
 ├── manuscript/
 │   └── paper2/                  # companion manuscript + SI + cover letter
 ├── figures/
