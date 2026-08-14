@@ -72,7 +72,7 @@ Limitations: the synthetic-accessibility (SA) scores computed here are calibrate
 
 ## Data and Software Availability
 
-All data, descriptor tables, predictors, and analysis scripts are available at https://github.com/linfuxing123/IL-Property-ML and archived on Zenodo at https://doi.org/10.5281/zenodo.21898948 (version v1.4.1, which includes the inverse-design workflow described here).
+All data, descriptor tables, predictors, and analysis scripts are available at https://github.com/linfuxing123/IL-Property-ML and archived on Zenodo at https://doi.org/10.5281/zenodo.21931665 (version v1.4.1, which includes the inverse-design workflow described here).
 
 ## References
 
