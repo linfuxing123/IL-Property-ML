@@ -1,6 +1,6 @@
 # IL-Property-ML: A structure-based framework for honest, IL-disjoint prediction of ionic-liquid properties
 
-**Author:** Fuxing Lin (蔺复兴) · Hunan Institute of Engineering, Xiangtan, Hunan, China
+**Author:** Fuxing Lin (��复兴) · Hunan Institute of Engineering, Xiangtan, Hunan, China
 
 This repository contains the complete data, code, figures, and manuscript for the
 submission *"A structure-based framework for honest, IL-disjoint prediction
@@ -66,6 +66,17 @@ descriptors remain essential for cold-start melting point (0.523 versus 0.399) a
 competitive for viscosity. Key scripts: `gnn_exp.py`, `make_figures.py`. Manuscript,
 SI, and figures are in `manuscript/paper4/` and `figures/paper4/`.
 
+## Inverse-design study (v1.4+)
+
+The fifth manuscript moves from prediction to inverse design. A three-model oracle
+(GBM, HistGBM, MPNN, all IL-disjoint validated) screens the 238,500 cation-anion
+combinations formed from 795 cations and 300 anions (only 1,891 reported), and, after
+three-model agreement and Pareto filtering, proposes 11 unreported, room-temperature-liquid
+candidates led by thiazolium/imidazolium + dicyanamide (predicted ln kappa up to 0.64).
+Scaffold mutation yields 272 novel cations; latent-space optimization and a character VAE
+are reported as limited by data density. Key scripts: gnn_oracle.py, inverse_design.py,
+scaffold_generate.py, final_pipeline.py, verify_gnn.py. Manuscript/SI in manuscript/paper5/.
+
 ## Repository layout
 
 ```
@@ -86,14 +97,14 @@ IL-Property-ML/
 │   ├── ilt_validate.py          # export + honest_cv/coverage validation (companion)
 │   ├── ilt_merge_old.py         # legacy dataset merge (companion)
 │   └���─ perfold_si.py            # per-fold SI results (companion)
-├── manuscript/
+├─��� manuscript/
 │   └── paper2/                  # companion manuscript + SI + cover letter
 ├── figures/
 │   └── paper2/                  # companion figures (300 dpi)
 │   ├── il_db.py                 # database assembly helpers
 │   ├── ilthermo_resolver.py     # ILThermo name → SMILES resolver
 │   ├── chem_tools.py            # RDKit chemistry utilities
-│   └── requirements.txt         # pinned Python dependencies
+���   └── requirements.txt         # pinned Python dependencies
 ├── figures/                     # 300-dpi publication figures
 ├── manuscript/                  # manuscript + supplementary text (Markdown)
 ├── LICENSE                      # CC-BY-4.0
