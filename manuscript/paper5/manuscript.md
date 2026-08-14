@@ -70,9 +70,9 @@ Limitations: the synthetic-accessibility (SA) scores computed here are calibrate
 
 **Scaffold mutation and VAE.** Six cation scaffolds were mutated across substituent lists (C1–C8 alkyl, methoxy/ethoxyethyl, hydroxyethyl) with RDKit validation of valence and +1 charge. A character-level GRU VAE (latent dimension 48) was trained on cation and anion SMILES; latent-space optimization used a (μ, λ) evolutionary strategy against the GBM oracle with a synthetic-accessibility penalty.
 
-## Data and code availability
+## Data and Software Availability
 
-All data, descriptor tables, predictors, and analysis scripts will be released at GitHub (linfuxing123/IL-Property-ML) and archived on Zenodo (concept DOI 10.5281/zenodo.21898948).
+All data, descriptor tables, predictors, and analysis scripts are available at https://github.com/linfuxing123/IL-Property-ML and archived on Zenodo at https://doi.org/10.5281/zenodo.21898948 (version v1.4.0, which includes the inverse-design workflow described here).
 
 ## References
 
