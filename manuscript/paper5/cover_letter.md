@@ -8,7 +8,7 @@ The paper addresses a methodological gap in ionic-liquid (IL) chemical informati
 
 The manuscript also reports, rather than hides, the limits of de novo generation at the available data scale: a character-level VAE trained on ~1,000 ions generates largely chemically unreasonable structures, and latent-space optimization regresses to the known optimum. We argue that data density—not model architecture—is the binding constraint on generative inverse design, a conclusion directly relevant to the JCIM community working on generative molecular design under data scarcity.
 
-This work is original, has not been published elsewhere, and is not under consideration by another journal. All data, predictors, and code will be released openly on GitHub and Zenodo.
+This work is original, has not been published elsewhere, and is not under consideration by another journal. All data, predictors, and code are openly available at https://github.com/linfuxing123/IL-Property-ML and archived on Zenodo (https://doi.org/10.5281/zenodo.21898948).
 
 I am the sole and corresponding author. Thank you for your consideration.
 
