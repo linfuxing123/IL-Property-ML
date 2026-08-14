@@ -12,7 +12,7 @@ property prediction,"* and the graph-learning companion *"Graph neural networks
 and engineered descriptors trade on temperature in ionic-liquid property
 prediction."*
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21898949.svg)](https://doi.org/10.5281/zenodo.21898949)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21898948.svg)](https://doi.org/10.5281/zenodo.21898948)
 
 ## What this work does
 
@@ -147,9 +147,9 @@ required.
 
 If you use this repository, please cite:
 
-Lin, Fuxing (2026). IL-Property-ML: A structure-based framework for
-honest, IL-disjoint prediction of ionic-liquid properties. Zenodo.
-https://doi.org/10.5281/zenodo.21898949
+Lin, Fuxing (2026). IL-Property-ML: honest, IL-disjoint prediction of
+ionic-liquid properties (companion papers). Zenodo.
+https://doi.org/10.5281/zenodo.21898948
 
 ## License
 
