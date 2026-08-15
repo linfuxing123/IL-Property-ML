@@ -1,0 +1,4 @@
+property,n,corr_predictors,corr_mean_div,corr_normalized,t_stat,monotone,layered_seq
+conductivity,1673919,0.905,-0.41,-0.384,-581.5,True,"[0.5203, 0.373, 0.2848, 0.2074]"
+melting_point,1673919,0.871,0.153,0.144,199.7,False,"[5.4601, 5.7741, 6.7845, 7.5839]"
+viscosity,1673919,0.887,0.179,0.068,235.4,False,"[0.2037, 0.24, 0.2723, 0.2983]"
