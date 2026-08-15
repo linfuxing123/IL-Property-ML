@@ -6,7 +6,7 @@ Dear Editor,
 
 We are pleased to submit our manuscript, **"From 860 to 219,292 cations: how data
 scale unlocks generative design of ionic liquids"**, for consideration as a
-Research Article in [Journal].
+Research Article in ACS Central Science.
 
 ## What this paper does
 
