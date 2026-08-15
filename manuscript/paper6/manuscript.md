@@ -219,8 +219,8 @@ filter: agreed ln κ > 0.2, Tm ∈ (180, 300) K, ln η < 5.5, novelty by canonic
 exclusion of the 6,177 known ILs, chemical sanity (single-fragment anion, −1
 charge).
 
-**Code and data.** https://github.com/linfuxing123/IL-Property-ML (version DOI
-10.5281/zenodo.XXXXXXX after release).
+**Code and data.** https://github.com/linfuxing123/IL-Property-ML, release v2.0.0
+(https://doi.org/10.5281/zenodo.21941054).
 
 ## 4. Discussion
 
@@ -252,11 +252,14 @@ experimental/physical loop above.
 
 ## 5. Data and Software Availability
 
-Data and code are publicly available at
-https://github.com/linfuxing123/IL-Property-ML (version DOI
-10.5281/zenodo.XXXXXXX). Underlying sources: ILThermo v2.0 (NIST); Mendeley
-tpp25ztzmb [4]; Zenodo 7935198 (ILTransR), 14601320/15046370 (ILBERT), 3251661
-(ILPE).
+All data, code, models, and the manuscript are publicly available at
+https://github.com/linfuxing123/IL-Property-ML (release v2.0.0, archived at
+https://doi.org/10.5281/zenodo.21941054). The archive contains the merged
+experimental dataset (6,177 unique ILs), the ion-identity lists derived from the
+8.33M-IL virtual space, all descriptor tables, the eight trained predictor models
+(GBM/HistGBM × four properties), all scripts, and this manuscript with its
+figures. Underlying public sources: ILThermo v2.0 (NIST); Mendeley tpp25ztzmb
+[4]; Zenodo 7935198 (ILTransR), 14601320/15046370 (ILBERT), 3251661 (ILPE).
 
 ## 6. References (draft)
 
