@@ -1,6 +1,6 @@
 {
   "title": "IL-Property-ML: honest, IL-disjoint prediction of ionic-liquid properties (companion papers)",
-  "description": "Five companion manuscripts on honest, IL-disjoint prediction of ionic-liquid (IL) properties. v1.0.0: structure-based framework on 11,511 records / 1,658 ion pairs (MLR/GBM/MLP with RDKit descriptors + Morgan fingerprints, IL-disjoint validation, SHAP). v1.1.0: companion study expanding the database 7.7-fold to 88,077 records / 1,891 unique ion pairs via NIST ILThermo v2.0 (viscosity, density, conductivity, melting point; standardized units; verified SMILES), with honest validation tools and per-fold results. v1.2.0: feature-scale companion (458 per-ion RDKit descriptors) showing descriptors substitute for data density. v1.3.0: graph-vs-descriptor companion (message-passing graph neural network vs descriptor gradient boosting under IL-disjoint validation; GNN wins temperature-dependent density and conductivity, descriptors win cold-start melting point). v1.4.0: inverse-design companion (multi-property Pareto screening of ionic-liquid electrolytes under IL-disjoint validation, three-model cross-validation, 11 unreported candidates).",
+  "description": "Five companion manuscripts on honest, IL-disjoint prediction of ionic-liquid (IL) properties. v1.0.0: structure-based framework on 11,511 records / 1,658 ion pairs (MLR/GBM/MLP with RDKit descriptors + Morgan fingerprints, IL-disjoint validation, SHAP). v1.1.0: companion study expanding the database 7.7-fold to 88,077 records / 1,891 unique ion pairs via NIST ILThermo v2.0. v1.2.0: feature-scale companion (458 per-ion RDKit descriptors). v1.3.0: graph-vs-descriptor companion (GNN vs descriptors under IL-disjoint validation). v1.4.0: inverse-design companion (Pareto screening, three-model cross-validation, 11 unreported candidates). v2.0.0: data-scale companion for generative design — experimental set expanded to 6,177 unique ILs (Mendeley tpp25ztzmb merged), 8.33M-IL virtual space (219,292 cations x 38 anions) with two independent predictor families (ILPE ML + ILBERT chemLM), three predictors (GBM/HistGBM/MPNN) retrained under IL-disjoint validation (melting-point R2 +0.10 to +0.20), SMILES language model reaching 99.9% validity/charge correctness, 7 three-predictor-consistent novel candidates from 1.68M-pair screening, and an honest cross-source analysis showing no virtual IL is predicted to beat the known optimum.",
   "creators": [
     {
       "name": "Lin, Fuxing",
@@ -12,17 +12,17 @@
   "keywords": [
     "ionic liquids",
     "machine learning",
-    "property prediction",
-    "group k-fold",
+    "generative design",
+    "SMILES language model",
+    "data scale",
+    "IL-disjoint validation",
+    "cross-predictor validation",
     "electrolyte design",
     "RDKit",
     "ILThermo",
-    "data density",
-    "cold start",
-    "graph neural network",
-    "message passing",
-    "inverse design",
-    "Pareto optimization"
+    "ILBERT",
+    "ILPE",
+    "virtual screening"
   ],
   "upload_type": "software",
   "access_right": "open"
