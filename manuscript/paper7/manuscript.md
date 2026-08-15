@@ -291,9 +291,12 @@ materials ML must therefore be property-aware and paradigm-spanning.
 
 ## 7. Data and Software Availability
 
-Code and data are publicly available at
-https://github.com/linfuxing123/IL-Property-ML (version DOI to be assigned on
-release, planned v2.1.0).
+All data, code, models, and the manuscript are publicly available at
+https://github.com/linfuxing123/IL-Property-ML (release v2.1.0, archived at
+https://doi.org/10.5281/zenodo.21941824). The archive contains the scoring
+tables (1.68M IL pairs × four properties), the ILPE overlap data, all
+statistics tables, all analysis scripts, and this manuscript with its figures.
+Underlying public sources are listed in refs [1,2].
 
 ## 8. References
 
