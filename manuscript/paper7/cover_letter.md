@@ -59,8 +59,8 @@ content beyond the shared IL data backbone.
 ## Availability
 
 All data, code, and models are publicly available at
-https://github.com/linfuxing123/IL-Property-ML (version DOI to be assigned on
-release). No conflicts of interest.
+https://github.com/linfuxing123/IL-Property-ML, release v2.1.0
+(https://doi.org/10.5281/zenodo.21941824). No conflicts of interest.
 
 Sincerely,
 
