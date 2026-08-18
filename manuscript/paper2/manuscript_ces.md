@@ -10,11 +10,11 @@
 
 ## Highlights
 
-- First IL-specific learning-curve laws R²(N) = a − b·N^(−γ) under strict IL-disjoint validation, with property-specific exponents (γ = 0.215/0.807/0.565/0.288).
-- Properties classified as data-limited (viscosity), representation-limited (conductivity), or diversity-limited (melting point) — a decision rule for measurement, feature, and library budgets.
-- "Leakage tax" quantified: random point-wise splits inflate R² by up to +0.55 whenever per-IL redundancy exists.
-- Coverage-guided data acquisition consistently outperforms random sampling; cold-start decomposition pinpoints the anion dimension for viscosity.
-- Open release: 86,008-record curated dataset, split files, multi-model leaderboard, and a prioritized top-100 measurement list (GitHub v2.2.0; Zenodo 10.5281/zenodo.21996950).
+- IL learning-curve laws R²(N) = a − b·N^(−γ) with property-specific exponents.
+- Properties are data-, representation-, or diversity-limited: a budget decision rule.
+- Leakage tax: random splits inflate R² by up to +0.55 with per-IL redundancy.
+- Coverage-guided acquisition beats random; new anions are the viscosity bottleneck.
+- Open release: dataset, split files, leaderboard, and top-100 measurement list.
 
 ## Abstract
 
