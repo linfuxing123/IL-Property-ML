@@ -160,7 +160,7 @@ On the same group-disjoint folds, four models span only 0.16 units of R² (Table
 
 ## 5. Data and code availability
 
-All data (86,008 records, standardized units, verified SMILES), split files, the seven analysis scripts (data curation, honest evaluation, learning curves, leakage tax, cold-start decomposition, acquisition simulation, coverage statistics), the multi-model leaderboard, per-fold results, and the top-100 acquisition list are openly available at https://github.com/linfuxing123/IL-Property-ML (release v2.2.0) and archived at Zenodo (version DOI 10.5281/zenodo.21996950; concept DOI 10.5281/zenodo.21898948). ILThermo v2.0 is the primary data source (39,40).
+All data (86,008 records, standardized units, verified SMILES), split files, the seven analysis scripts (data curation, honest evaluation, learning curves, leakage tax, cold-start decomposition, acquisition simulation, coverage statistics), the multi-model leaderboard, per-fold results, and the top-100 acquisition list are openly available at https://github.com/linfuxing123/IL-Property-ML (release v2.2.1) and archived at Zenodo (version DOI 10.5281/zenodo.21997263; concept DOI 10.5281/zenodo.21898948). ILThermo v2.0 is the primary data source (39,40).
 
 ## References
 
