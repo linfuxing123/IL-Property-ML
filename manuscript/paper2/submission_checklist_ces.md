@@ -10,7 +10,7 @@
 - [x] Highlights：5 条，全部 ≤85 字符（Elsevier 硬性要求）
 - [x] 摘要：248 词（≤250 合规）
 - [x] 关键词：6 个
-- [x] 数据/代码：GitHub v2.2.0 + Zenodo 10.5281/zenodo.21996950（已在线验证 published）
+- [x] 数据/代码：GitHub v2.2.1 + Zenodo 10.5281/zenodo.21997263（已在线验证 published）
 - [x] 图：6 张 300 dpi 内嵌；表：5 张
 - [x] 声明：无利益冲突/无资助/CRediT 单作者
 - [ ] **Editorial Manager 账号注册（QQ 邮箱，需邮箱验证码——用户操作）**
