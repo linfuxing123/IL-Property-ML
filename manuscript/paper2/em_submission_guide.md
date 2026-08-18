@@ -10,7 +10,7 @@
 | 主稿 | `workspace\matmodel\paper2_upgrade\manuscript_ces.docx`（20 页，含图表） |
 | 封面信 | `workspace\matmodel\paper2_upgrade\cover_letter_ces.md` |
 | 元数据包 | `workspace\matmodel\paper2_upgrade\submission_checklist_ces.md` |
-| 数据/代码 | GitHub v2.2.0 + Zenodo 10.5281/zenodo.21996950（稿件 §5 已含） |
+| 数据/代码 | GitHub v2.2.1 + Zenodo 10.5281/zenodo.21997263（稿件 §5 已含） |
 
 ## 1. 注册（用户操作，2 分钟）
 
